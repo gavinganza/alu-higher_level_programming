@@ -52,7 +52,6 @@ def list_division(my_list_1, my_list_2, list_length):
 
         finally:
             # This block executes regardless of whether an exception occurred.
-            # Append the result (float from successful division or integer 0 from handlers).
             new_list.append(result)
 
     return new_list
