@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 """
 4-list_division.py
-A function that safely divides elements from two lists up to a specified length,
+A function that safely divides elements from two lists up to a specified
+length,
 handling TypeErrors, ZeroDivisionErrors, and IndexErrors.
 """
+
 
 def list_division(my_list_1, my_list_2, list_length):
     """
@@ -50,7 +52,7 @@ def list_division(my_list_1, my_list_2, list_length):
 
         finally:
             # This block executes regardless of whether an exception occurred.
-            # Append the calculated float result or the integer 0 from the handlers.
+            # Append the result (float from successful division or integer 0 from handlers).
             new_list.append(result)
 
     return new_list
