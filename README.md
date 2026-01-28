@@ -1,2 +1,1 @@
-Project python hello world
-hello
+hello alu 
